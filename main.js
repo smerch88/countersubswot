@@ -1,3 +1,5 @@
+"use strict";
+
 const subs = document.querySelectorAll(".js-subs");
 const refreshButtonRef = document.querySelector(".refresh");
 // console.log(subs);
