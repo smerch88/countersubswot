@@ -1,0 +1,53 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+textarea {
+    resize: none;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.subs-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.subs-item {
+    width: 200px;
+}
+
+.icon-twitter {}
+
+.social-link {}
+
+.icon-youtube {}
+
+.icon-instagram {}
+
+.icon-tiktok {}
