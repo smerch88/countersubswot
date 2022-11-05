@@ -1,3 +1,7 @@
+/* * {
+    outline: 1px solid tomato;
+} */
+
 h1,
 h2,
 h3,
@@ -28,26 +32,113 @@ textarea {
     resize: none;
 }
 
+.counters {
+    font-size: 20px;
+    letter-spacing: 0.04em;
+    line-height: 1.15;
+
+    text-align: center;
+
+    background: yellow;
+
+    padding: 40px 0;
+}
+
 .container {
-    width: 1200px;
+    max-width: 1200px;
     margin: 0 auto;
+}
+
+.hero-name {
+    margin-bottom: 20px;
+}
+
+.hero-title {
+    margin-bottom: 20px;
+}
+
+.hero-text {
+    margin-bottom: 20px;
+}
+
+.refresh {
+    padding: 8px;
+    margin-bottom: 20px;
+    border-radius: 8px;
 }
 
 .subs-list {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px
 }
 
 .subs-item {
     width: 200px;
+    border: 1px solid black;
+
+    padding: 16px;
+    border-radius: 16px;
+
+    background-color: aquamarine;
 }
 
-.icon-twitter {}
+.social-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+}
 
-.social-link {}
+.social-link:hover {
+    color: white;
+}
 
-.icon-youtube {}
+.icon-twitter,
+.icon-youtube,
+.icon-instagram,
+.icon-tiktok {
+    fill: black;
+}
 
-.icon-instagram {}
+.icon-twitter:hover,
+.icon-youtube:hover,
+.icon-instagram:hover,
+.icon-tiktok :hover {
+    fill: white;
+}
 
-.icon-tiktok {}
+.stages-youtube,
+.stages-twitter,
+.stages-tiktok,
+.stages-instagram {
+    margin-top: 8px;
+}
+
+.stage-youtube,
+.stage-twitter,
+.stage-tiktok,
+.stage-instagram {
+    margin-bottom: 8px;
+}
+
+.stage-youtube:last-child,
+.stage-twitter:last-child,
+.stage-tiktok:last-child,
+.stage-instagram:last-child {
+    margin-bottom: 0;
+}
+
+.number-subs {
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+.passed {
+    color: green;
+}
+
+.not-passed {
+    color: red;
+}
