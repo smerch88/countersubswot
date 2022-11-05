@@ -2,6 +2,12 @@
     outline: 1px solid tomato;
 } */
 
+body {
+    background-image: url(./pictures/bg.jpg);
+    font-family: 'Quantico', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
 h1,
 h2,
 h3,
@@ -39,7 +45,6 @@ textarea {
 
     text-align: center;
 
-    background: yellow;
 
     padding: 40px 0;
 }
@@ -50,11 +55,15 @@ textarea {
 }
 
 .hero-name {
+    color: white;
     margin-bottom: 20px;
+    text-shadow: #FC0 1px 0 12px;
 }
 
 .hero-title {
+    color: white;
     margin-bottom: 20px;
+    text-shadow: #FC0 1px 0 4px;
 }
 
 .hero-text {
@@ -62,9 +71,20 @@ textarea {
 }
 
 .refresh {
+    font-size: 24px;
+    font-weight: 600;
+
     padding: 8px;
     margin-bottom: 20px;
     border-radius: 8px;
+
+    color: white;
+    background-color: rgb(255, 126, 0);
+}
+
+.refresh:hover {
+    background-color: grey;
+    box-shadow: 8px 8px rgba(255, 126, 0, 0.6);
 }
 
 .subs-list {
@@ -81,7 +101,9 @@ textarea {
     padding: 16px;
     border-radius: 16px;
 
-    background-color: aquamarine;
+    background-color: rgba(202, 255, 0, 0.5);
+
+    box-shadow: 19px 25px 88px -9px rgba(0, 0, 0, 0.64);
 }
 
 .social-link {
@@ -93,20 +115,21 @@ textarea {
 
 .social-link:hover {
     color: white;
+    fill: white;
 }
 
 .icon-twitter,
 .icon-youtube,
 .icon-instagram,
 .icon-tiktok {
-    fill: black;
+    fill: inherit;
 }
 
 .icon-twitter:hover,
 .icon-youtube:hover,
 .icon-instagram:hover,
 .icon-tiktok :hover {
-    fill: white;
+    fill: inherit;
 }
 
 .stages-youtube,
@@ -135,10 +158,17 @@ textarea {
     margin-left: 20px;
 }
 
+.js-subs {
+    font-size: 24px;
+    line-height: 1.8;
+}
+
 .passed {
     color: green;
+    text-shadow: 2px 2px 4px white;
 }
 
 .not-passed {
     color: red;
+    text-shadow: 2px 2px 4px white;
 }
