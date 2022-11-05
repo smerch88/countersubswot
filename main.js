@@ -1,10 +1,10 @@
 "use strict";
 
 const subsData = {
-  twitter: 189000,
-  youtube: 335000,
-  instagram: 189000,
-  tiktok: 189000,
+  twitter: 200000,
+  youtube: 350000,
+  instagram: 140000,
+  tiktok: 100000,
 };
 
 const subs = document.querySelectorAll(".js-subs");
